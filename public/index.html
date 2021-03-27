@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center h-16 bg-gradient-to-r from-blue-700 to-blue-600 text-white relative"
+      role="navigation"
+    >
+      <a href="index.html" id="logo" class="pl-6">Curriculum Vitae</a>
+      <div class="px-4 cursor-pointer md:hidden" id="bars">
+        <svg
+          class="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+      </div>
+      <div class="hidden md:block" id="menu">
+        <a href="index.html" class="p-4">Home</a>
+        <a href="about.html" class="p-4">About me</a>
+      </div>
+    </nav>
+    <!--Imagen-->
+    <section class="hero container max-w-screen-lg mx-auto pb-10">
+        <img class="mx-auto" src="images/img.jpg" alt="screenshot" >
+    </section>
+  </body>
+</html>
